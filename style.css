@@ -1,6 +1,16 @@
 /* Styling Only Related To ALL Pages */
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Delius Swash Caps", cursive;
+}
 
 body {
+  background: #f389b9;
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
@@ -33,11 +43,11 @@ ul.nav li a {
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #ee008c;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color:#fac1d2;
 }
 
 h1 {
